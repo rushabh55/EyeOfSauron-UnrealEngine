@@ -30,4 +30,7 @@ class EYEOFSAURON_API AMyEyeParticleSystem : public AActor
 
 	virtual void BeginPlay() override;
 	
+	virtual void Tick(float deltaSeconds) override;
+
+	bool posChanged;
 };

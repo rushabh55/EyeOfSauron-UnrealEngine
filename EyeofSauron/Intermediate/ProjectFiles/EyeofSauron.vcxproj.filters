@@ -1,57 +1,67 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\EyeofSauron.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{F2C57CCB-FE79-4947-ABE1-93C69ABC2C0D}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\EyeofSauron.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\EyeofSauronEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{15079AE0-208A-4062-BE3F-6B7A66D0D3F2}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\EyeofSauron">
-      <UniqueIdentifier>{4C4CEE0B-8FED-496E-99A8-F0CF1EFA115C}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\EyeofSauron\EyeofSauron.Build.cs">
-      <Filter>Source\EyeofSauron</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\EyeofSauron\EyeofSauron.cpp">
-      <Filter>Source\EyeofSauron</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\EyeofSauron\EyeofSauron.h">
-      <Filter>Source\EyeofSauron</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\EyeofSauron\MyEyeParticleSystem.cpp">
-      <Filter>Source\EyeofSauron</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\EyeofSauron\MyEyeParticleSystem.h">
-      <Filter>Source\EyeofSauron</Filter>
-    </ClInclude>
-    <Filter Include="Source\EyeofSauron\Resources">
-      <UniqueIdentifier>{24CB73D1-A681-497D-9D61-4AD096C8E6D4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\EyeofSauron\Resources\Windows">
-      <UniqueIdentifier>{DC8CEE01-5734-4A08-B977-2CBD692EEE9D}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\EyeofSauron\Resources\Windows\EyeofSauron.ico">
-      <Filter>Source\EyeofSauron\Resources\Windows</Filter>
-    </None>
-    <ResourceCompile Include="..\..\Source\EyeofSauron\Resources\Windows\EyeofSauron.rc">
-      <Filter>Source\EyeofSauron\Resources\Windows</Filter>
-    </ResourceCompile>
-    <None Include="..\..\Source\EyeofSauron\Resources\Windows\Thumbs.db">
-      <Filter>Source\EyeofSauron\Resources\Windows</Filter>
-    </None>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\EyeofSauron.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{E951EF56-8C60-4783-8DD6-DF33DED157B9}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\EyeofSauron.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\EyeofSauronEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{CD851AF8-FF8F-4A28-B651-A8AA7B2632DA}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\EyeofSauron">
+			<UniqueIdentifier>{95C84F78-91A5-43E6-80E9-6DB2C2D499CE}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\EyeofSauron\EyeofSauron.Build.cs">
+			<Filter>Source\EyeofSauron</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\EyeofSauron\EyeofSauron.cpp">
+			<Filter>Source\EyeofSauron</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\EyeofSauron\EyeofSauron.h">
+			<Filter>Source\EyeofSauron</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\EyeofSauron\MyClass.cpp">
+			<Filter>Source\EyeofSauron</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\EyeofSauron\MyClass.h">
+			<Filter>Source\EyeofSauron</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\EyeofSauron\MyEyeParticleSystem.cpp">
+			<Filter>Source\EyeofSauron</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\EyeofSauron\MyEyeParticleSystem.h">
+			<Filter>Source\EyeofSauron</Filter>
+		</ClInclude >
+		<Filter Include="Source\EyeofSauron\Resources">
+			<UniqueIdentifier>{F87A4406-4488-44E3-810A-B571DADF6325}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\EyeofSauron\Resources\Windows">
+			<UniqueIdentifier>{CB9B8223-E039-4596-AA89-B9F0B5322AED}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\EyeofSauron\Resources\Windows\EyeofSauron.ico">
+			<Filter>Source\EyeofSauron\Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\Source\EyeofSauron\Resources\Windows\EyeofSauron.rc">
+			<Filter>Source\EyeofSauron\Resources\Windows</Filter>
+		</ResourceCompile >
+		<None Include="..\..\Source\EyeofSauron\Resources\Windows\Thumbs.db">
+			<Filter>Source\EyeofSauron\Resources\Windows</Filter>
+		</None >
+	</ItemGroup>
 </Project>

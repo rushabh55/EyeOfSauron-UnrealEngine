@@ -39,9 +39,9 @@ void AMyEyeParticleSystem::SetParticleSystemUp_Implementation()
 		/*int count = 0;
 		for (float j = -30; j <= 30; j += 5)
 		{
-			PointsOfEyeEnd.Add(FVector(EyeLocation.X + (EyeRadius * sin((i * 22) / (180 * 7)) * cos((j * 22) / (180 * 7))), EyeLocation.Y + (EyeRadius * sin((i * 22) / (180 * 7)) * sin((j * 22) / (180 * 7))), EyeLocation.Z + (EyeRadius * cos((i * 22) / (180 * 7)))));
-			PointsOfEyeStart.Add(FVector(EyeLocation.X + ((EyeRadius / (13 - count)) * sin((i * 22) / (180 * 7)) * cos((j * 22) / (180 * 7))), EyeLocation.Y + ((EyeRadius / (13 - count)) * sin((i * 22) / (180 * 7)) * sin((j * 22) / (180 * 7))), EyeLocation.Z + ((EyeRadius / (13 - count)) * cos((i * 22) / (180 * 7)))));
-			count++;
+		PointsOfEyeEnd.Add(FVector(EyeLocation.X + (EyeRadius * sin((i * 22) / (180 * 7)) * cos((j * 22) / (180 * 7))), EyeLocation.Y + (EyeRadius * sin((i * 22) / (180 * 7)) * sin((j * 22) / (180 * 7))), EyeLocation.Z + (EyeRadius * cos((i * 22) / (180 * 7)))));
+		PointsOfEyeStart.Add(FVector(EyeLocation.X + ((EyeRadius / (13 - count)) * sin((i * 22) / (180 * 7)) * cos((j * 22) / (180 * 7))), EyeLocation.Y + ((EyeRadius / (13 - count)) * sin((i * 22) / (180 * 7)) * sin((j * 22) / (180 * 7))), EyeLocation.Z + ((EyeRadius / (13 - count)) * cos((i * 22) / (180 * 7)))));
+		count++;
 		}
 		count = 0;
 		for (float j = 150; j <= 210; j += 5)
@@ -92,11 +92,11 @@ void AMyEyeParticleSystem::SetParticleSystemUp_Implementation()
 	{
 		/*for (float j = -60; j <= 60; j += 10)
 		{
-			PointsOnEye.Add(FVector(EyeLocation.X + (EyeRadius * sin((j * 22) / (180 * 7)) * cos((i * 22) / (180 * 7))), EyeLocation.Y + (EyeRadius * sin((j * 22) / (180 * 7)) * sin((i * 22) / (180 * 7))), EyeLocation.Z + (EyeRadius * cos((j * 22) / (180 * 7)))));
+		PointsOnEye.Add(FVector(EyeLocation.X + (EyeRadius * sin((j * 22) / (180 * 7)) * cos((i * 22) / (180 * 7))), EyeLocation.Y + (EyeRadius * sin((j * 22) / (180 * 7)) * sin((i * 22) / (180 * 7))), EyeLocation.Z + (EyeRadius * cos((j * 22) / (180 * 7)))));
 		}
 		for (float j = 120; j <= 240; j += 10)
 		{
-			PointsOnEye.Add(FVector(EyeLocation.X + (EyeRadius * sin((j * 22) / (180 * 7)) * cos((i * 22) / (180 * 7))), EyeLocation.Y + (EyeRadius * sin((j * 22) / (180 * 7)) * sin((i * 22) / (180 * 7))), EyeLocation.Z + (EyeRadius * cos((j * 22) / (180 * 7)))));
+		PointsOnEye.Add(FVector(EyeLocation.X + (EyeRadius * sin((j * 22) / (180 * 7)) * cos((i * 22) / (180 * 7))), EyeLocation.Y + (EyeRadius * sin((j * 22) / (180 * 7)) * sin((i * 22) / (180 * 7))), EyeLocation.Z + (EyeRadius * cos((j * 22) / (180 * 7)))));
 		}*/
 		for (float j = 0; j <= 360; j += 30)
 		{
@@ -149,7 +149,7 @@ void AMyEyeParticleSystem::Tick(float deltaSeconds)
 			temp = (rand() % 250) + 250;
 			//update eye location and particle system start and end points
 			offsetX = rand() % 100 * (((rand() % 2) == 0) ? 1 : -1);
-			offsetY = rand() % 100 * (((rand() % 2) == 0)? 1 : -1);
+			offsetY = rand() % 100 * (((rand() % 2) == 0) ? 1 : -1);
 			this->AddActorWorldOffset(FVector(offsetX, offsetY, 0), true);
 			/*EyeCollisionComponent->AddWorldOffset(FVector(offset, offset, 0), true);*/
 			FVector EyeLocation = EyeCollisionComponent->GetComponentLocation();

@@ -30,8 +30,8 @@ void AMyEyeParticleSystem::SetParticleSystemUp_Implementation()
 {
 	float EyeRadius = 100/*EyeCollisionComponent->GetUnscaledSphereRadius()*/;
 	FVector EyeLocation = EyeCollisionComponent->GetComponentLocation();
-	FVector BeamEndLoc1(EyeLocation.X + 150, EyeLocation.Y - 100, EyeLocation.Z);
-	FVector BeamEndLoc2(EyeLocation.X - 150, EyeLocation.Y + 100, EyeLocation.Z);
+	FVector BeamEndLoc1(EyeLocation.X + 110, EyeLocation.Y - 110, EyeLocation.Z);
+	FVector BeamEndLoc2(EyeLocation.X - 140, EyeLocation.Y + 110, EyeLocation.Z);
 	TArray<FVector> PointsOfEyeStart;
 	TArray<FVector> PointsOfEyeEnd;
 	for (float i = 90; i <= 120; i += 15)

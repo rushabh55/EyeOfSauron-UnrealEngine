@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\EyeofSauron.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{8606C4C1-5E76-4B02-8099-BAF5C9DFFF4E}</UniqueIdentifier>
+			<UniqueIdentifier>{52EC31BC-40FD-4ADA-A713-80362E58805F}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\EyeofSauron.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{9F8F07D0-E9E9-49F3-9B7C-5E1E11C82D78}</UniqueIdentifier>
+			<UniqueIdentifier>{3836CE11-3F3F-4412-805A-E76AE14548D1}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,7 +25,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\EyeofSauron">
-			<UniqueIdentifier>{9FB639F2-394A-4777-9FF5-EB3020BC0DCB}</UniqueIdentifier>
+			<UniqueIdentifier>{E96393FD-08F3-4815-A568-D449AC179D96}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\EyeofSauron\EyeofSauron.Build.cs">
 			<Filter>Source\EyeofSauron</Filter>
@@ -49,10 +49,10 @@
 			<Filter>Source\EyeofSauron</Filter>
 		</ClInclude >
 		<Filter Include="Source\EyeofSauron\Resources">
-			<UniqueIdentifier>{DE1A1A38-58DF-4218-AAEE-FC44DAEABBFD}</UniqueIdentifier>
+			<UniqueIdentifier>{CF8654F5-466B-466D-8DCD-B04681D8896A}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Source\EyeofSauron\Resources\Windows">
-			<UniqueIdentifier>{B1C254CC-1721-4785-849D-1E018DA58CF3}</UniqueIdentifier>
+			<UniqueIdentifier>{CCF5063B-779A-47F0-98AC-AC85523F6EC5}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\EyeofSauron\Resources\Windows\EyeofSauron.ico">
 			<Filter>Source\EyeofSauron\Resources\Windows</Filter>

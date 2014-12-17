@@ -4,7 +4,11 @@
 	<ItemGroup>
 		<None Include="..\..\EyeofSauron.uproject" />
 		<Filter Include="Source">
+<<<<<<< HEAD
+			<UniqueIdentifier>{52EC31BC-40FD-4ADA-A713-80362E58805F}</UniqueIdentifier>
+=======
 			<UniqueIdentifier>{9A48566E-A80E-4748-8A8A-F06EA949A53C}</UniqueIdentifier>
+>>>>>>> 7e1a1178982d6a4585e39fafec05d9fa6985439f
 		</Filter>
 		<None Include="..\..\Source\EyeofSauron.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +17,11 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
+<<<<<<< HEAD
+			<UniqueIdentifier>{3836CE11-3F3F-4412-805A-E76AE14548D1}</UniqueIdentifier>
+=======
 			<UniqueIdentifier>{C6945EA9-EDB1-4CD5-B34D-DF1335F07CCB}</UniqueIdentifier>
+>>>>>>> 7e1a1178982d6a4585e39fafec05d9fa6985439f
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,7 +33,11 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\EyeofSauron">
+<<<<<<< HEAD
+			<UniqueIdentifier>{E96393FD-08F3-4815-A568-D449AC179D96}</UniqueIdentifier>
+=======
 			<UniqueIdentifier>{2EA616A3-941D-47AC-862F-01CA6ACA79CE}</UniqueIdentifier>
+>>>>>>> 7e1a1178982d6a4585e39fafec05d9fa6985439f
 		</Filter>
 		<None Include="..\..\Source\EyeofSauron\EyeofSauron.Build.cs">
 			<Filter>Source\EyeofSauron</Filter>
@@ -49,10 +61,17 @@
 			<Filter>Source\EyeofSauron</Filter>
 		</ClInclude >
 		<Filter Include="Source\EyeofSauron\Resources">
+<<<<<<< HEAD
+			<UniqueIdentifier>{CF8654F5-466B-466D-8DCD-B04681D8896A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\EyeofSauron\Resources\Windows">
+			<UniqueIdentifier>{CCF5063B-779A-47F0-98AC-AC85523F6EC5}</UniqueIdentifier>
+=======
 			<UniqueIdentifier>{E330F8FE-45AA-4FC6-B6EF-865DDD235E86}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Source\EyeofSauron\Resources\Windows">
 			<UniqueIdentifier>{BDC122BC-058D-440C-ADC7-7933A972B8A7}</UniqueIdentifier>
+>>>>>>> 7e1a1178982d6a4585e39fafec05d9fa6985439f
 		</Filter>
 		<None Include="..\..\Source\EyeofSauron\Resources\Windows\EyeofSauron.ico">
 			<Filter>Source\EyeofSauron\Resources\Windows</Filter>

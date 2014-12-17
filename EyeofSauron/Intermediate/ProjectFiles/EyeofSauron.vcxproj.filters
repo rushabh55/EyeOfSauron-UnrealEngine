@@ -4,11 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\EyeofSauron.uproject" />
 		<Filter Include="Source">
-<<<<<<< HEAD
-			<UniqueIdentifier>{52EC31BC-40FD-4ADA-A713-80362E58805F}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{9A48566E-A80E-4748-8A8A-F06EA949A53C}</UniqueIdentifier>
->>>>>>> 7e1a1178982d6a4585e39fafec05d9fa6985439f
+			<UniqueIdentifier>{F5849BEB-7F10-4422-AE14-EC07F1B617C1}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\EyeofSauron.Target.cs">
 			<Filter>Source</Filter>
@@ -17,11 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-<<<<<<< HEAD
-			<UniqueIdentifier>{3836CE11-3F3F-4412-805A-E76AE14548D1}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{C6945EA9-EDB1-4CD5-B34D-DF1335F07CCB}</UniqueIdentifier>
->>>>>>> 7e1a1178982d6a4585e39fafec05d9fa6985439f
+			<UniqueIdentifier>{0B6943E6-C1C3-438C-A9A5-B6E61651EC89}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -33,11 +25,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\EyeofSauron">
-<<<<<<< HEAD
-			<UniqueIdentifier>{E96393FD-08F3-4815-A568-D449AC179D96}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{2EA616A3-941D-47AC-862F-01CA6ACA79CE}</UniqueIdentifier>
->>>>>>> 7e1a1178982d6a4585e39fafec05d9fa6985439f
+			<UniqueIdentifier>{4B0E81A3-27DA-48EF-8479-68DFEA3F0261}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\EyeofSauron\EyeofSauron.Build.cs">
 			<Filter>Source\EyeofSauron</Filter>
@@ -61,17 +49,10 @@
 			<Filter>Source\EyeofSauron</Filter>
 		</ClInclude >
 		<Filter Include="Source\EyeofSauron\Resources">
-<<<<<<< HEAD
-			<UniqueIdentifier>{CF8654F5-466B-466D-8DCD-B04681D8896A}</UniqueIdentifier>
+			<UniqueIdentifier>{91510C30-0C1F-45E5-90D8-F1454E0A8C4B}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Source\EyeofSauron\Resources\Windows">
-			<UniqueIdentifier>{CCF5063B-779A-47F0-98AC-AC85523F6EC5}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{E330F8FE-45AA-4FC6-B6EF-865DDD235E86}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="Source\EyeofSauron\Resources\Windows">
-			<UniqueIdentifier>{BDC122BC-058D-440C-ADC7-7933A972B8A7}</UniqueIdentifier>
->>>>>>> 7e1a1178982d6a4585e39fafec05d9fa6985439f
+			<UniqueIdentifier>{FBE33CBE-BECA-420C-B502-779DDAE23DCB}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\EyeofSauron\Resources\Windows\EyeofSauron.ico">
 			<Filter>Source\EyeofSauron\Resources\Windows</Filter>

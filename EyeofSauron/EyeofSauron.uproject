@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{B7C6A9F4-44E3-4757-4B72-00B7B5A74F44}",
+	"EngineAssociation": "4.5",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -9,5 +9,8 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
+	],
+	"TargetPlatforms": [
+		"WindowsNoEditor"
 	]
 }
